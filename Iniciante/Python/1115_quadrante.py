@@ -8,12 +8,12 @@ while not fim:
     x, y = map(int, input().split())
     #Makes conditionals that verify witch number to print based on math rules
     if x > 0 and y > 0: 
-        print('Primeiro')
+        print('primeiro')
     elif x < 0 and y > 0:
-        print('Segundo')
+        print('segundo')
     elif x < 0 and y < 0: 
-        print('Terceiro')
+        print('terceiro')
     elif x > 0 and y < 0: 
-        print('Quarto')
+        print('quarto')
     else: 
         break
