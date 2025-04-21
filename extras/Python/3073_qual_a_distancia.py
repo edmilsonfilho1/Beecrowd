@@ -9,4 +9,5 @@ if num1 < num3:
 #Makes num3 the smallest one 
 if num2 < num3: 
     num2, num3 = num3, num2
+#shows up the greatest and the smallest number and subtract them
 print(f'A distância entre o maior valor {num1} e o menor valor {num3} é {num1-num3}')
